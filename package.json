@@ -1,6 +1,6 @@
 {
   "name": "epd7x5",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "node module for the 7.5 inch waveshare epaper display",
   "main": "index.js",
   "scripts": {
