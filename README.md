@@ -1,11 +1,19 @@
 # epd7x5
 
-A Node.js package for the 7.5inch e-Paper HAT(B) waveshare display. 
+A Node.js package for the 7.5inch e-Paper HAT(B) waveshare display on a Raspberry Pi 2/3/zero
 [Link to waveshare wiki](https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT_(B))
 
 ## Dependencies
+1. WiringPi for GPIO access of Raspberry Pi
+2. libgd2 for the drawing
 
 ## Installation
+WiringPi: follow installation on [wiringpi.com](http://wiringpi.com/download-and-install/)
+
+libgd2: sudo apt-get install libgd2-dev # libgd
+
+epd7x5: npm install epd7x5
+
 
 ## Usage
 
