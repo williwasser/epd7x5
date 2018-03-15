@@ -39,6 +39,25 @@ img.stringFT(epd7x5.white, font, 64, -0.0, 5, 300, 'Hello EPD 7x5!');
 epd7x5.displayImageBuffer(img);
 ```
 
+The module exports the following functions and constants:
+
+### Functions:
+exports.init
+exports.getImageBuffer 
+exports.displayImageBuffer
+
+### Constants:
+exports.white
+exports.red
+exports.black	
+exports.width
+exports.height
+
+### gd namespace for direct access of gd functions
+exports.gd
+
+Documentation of node-gd functions can be found [here](https://y-a-v-a.github.io/node-gd/)
+
 ## License
 
 Apache 2.0
