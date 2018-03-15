@@ -42,25 +42,25 @@ epd7x5.displayImageBuffer(img);
 The module exports the following functions and constants:
 
 ### Functions:
-exports.init
+epd7x5.init()
 
-exports.getImageBuffer 
+epd7x5.getImageBuffer() 
 
-exports.displayImageBuffer
+epd7x5.displayImageBuffer(img)
 
 ### Constants:
-exports.white
+epd7x5.white
 
-exports.red
+epd7x5.red
 
-exports.black
+epd7x5.black
 	
-exports.width
+epd7x5.width
 
-exports.height
+epd7x5.height
 
 ### gd namespace for direct access of gd functions
-exports.gd
+epd7x5.gd
 
 Documentation of node-gd functions can be found [here](https://y-a-v-a.github.io/node-gd/)
 
