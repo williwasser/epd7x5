@@ -61,17 +61,6 @@ exports.init = epd7x5.init;
 exports.white = 32;
 exports.red = 128;
 exports.black = 224;	
-
-/*
-epd7x5.getImageBuffer = getImageBuffer;
-epd7x5.displayImageBuffer = displayImageBuffer;
-epd7x5.width = width;
-epd7x5.height = height;
-epd7x5.white = 32;
-epd7x5.red = 128;
-epd7x5.black = 224;	
-epd7x5.addImageFitX = addImageFitX
-
-
-module.exports = epd7x5;
-*/
+exports.width = width;
+exports.height = height;
+exports.gd = gd;
