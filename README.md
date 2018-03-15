@@ -43,14 +43,20 @@ The module exports the following functions and constants:
 
 ### Functions:
 exports.init
+
 exports.getImageBuffer 
+
 exports.displayImageBuffer
 
 ### Constants:
 exports.white
+
 exports.red
-exports.black	
+
+exports.black
+	
 exports.width
+
 exports.height
 
 ### gd namespace for direct access of gd functions
