@@ -62,8 +62,10 @@ The module exports the following functions and constants:
 
 `epd7x5.height`
 
-### gd namespace for direct access of gd functions
+### gd namespace for access of functions on the gd object: 
 `epd7x5.gd`
+
+example: `epd7x5.gd.createFromFile(path)` to open an image
 
 Documentation of node-gd functions can be found [here](https://y-a-v-a.github.io/node-gd/)
 
