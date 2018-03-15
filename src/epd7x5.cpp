@@ -64,10 +64,7 @@ void SendData(unsigned char data) {
     EpdIf::SpiTransfer(data);
 }
 
-void SendData2(unsigned char* data) {
-    EpdIf::DigitalWrite(DC_PIN, HIGH);
-    EpdIf::SpiTransfer2(data);
-}
+
 void WaitUntilIdle(void) {
     while(EpdIf::DigitalRead(BUSY_PIN) == 0) {      //0: busy, 1: idle
         EpdIf::DelayMs(100);
