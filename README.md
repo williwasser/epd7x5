@@ -1,6 +1,7 @@
 # epd7x5
 
-A Node.js package for the 7.5 inch waveshare epaper display.
+A Node.js package for the 7.5inch e-Paper HAT(B) waveshare display. 
+[Link to waveshare wiki](https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT_(B))
 
 ## Dependencies
 
