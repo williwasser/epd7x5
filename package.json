@@ -1,0 +1,29 @@
+{
+  "name": "epd7x5",
+  "version": "1.0.0",
+  "description": "node module for the 7.5 inch waveshare epaper display",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williwasser/epd7x5.git"
+  },
+  "keywords": [
+    "epaper",
+    "epd",
+    "waveshare"
+  ],
+  "author": "Willi Wasser",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/williwasser/epd7x5/issues"
+  },
+  "homepage": "https://github.com/williwasser/epd7x5#readme",
+  "dependencies": {
+    "node-gd": "^1.5.4"
+  }
+}
