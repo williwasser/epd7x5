@@ -9,6 +9,8 @@ A Node.js package for the 7.5inch e-Paper HAT(B) waveshare display on a Raspberr
 2. libgd2 for text output and drawing
 
 ## Installation
+Enable the SPI interface on Raspberry Pi: `sudo raspi-config` 
+
 WiringPi: follow installation on [wiringpi.com](http://wiringpi.com/download-and-install/)
 
 libgd2: `sudo apt-get install libgd2-dev # libgd`
@@ -43,25 +45,25 @@ epd7x5.displayImageBuffer(img);
 The module exports the following functions and constants:
 
 ### Functions:
-epd7x5.init()
+`epd7x5.init()`
 
-epd7x5.getImageBuffer() 
+`epd7x5.getImageBuffer()` 
 
-epd7x5.displayImageBuffer(img)
+`epd7x5.displayImageBuffer(img)`
 
 ### Constants:
-epd7x5.white
+`epd7x5.white`
 
-epd7x5.red
+`epd7x5.red`
 
-epd7x5.black
+`epd7x5.black`
 	
-epd7x5.width
+`epd7x5.width`
 
-epd7x5.height
+`epd7x5.height`
 
 ### gd namespace for direct access of gd functions
-epd7x5.gd
+`epd7x5.gd`
 
 Documentation of node-gd functions can be found [here](https://y-a-v-a.github.io/node-gd/)
 
